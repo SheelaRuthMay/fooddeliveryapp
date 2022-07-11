@@ -6,5 +6,7 @@ A food delivery app with client and server side scripts with a frontend for user
 
 In the main directory, run the following command
 
-### npm run dev
+#### npm install (in the main directory, in the client directory and in the server directory)
+then
+#### npm run dev
 
