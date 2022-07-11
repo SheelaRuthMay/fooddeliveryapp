@@ -1,6 +1,6 @@
 # Food Delivery App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A food delivery app with client and server side scripts with a frontend for user and an admin panel for admin
 
 ## How to run...
 
