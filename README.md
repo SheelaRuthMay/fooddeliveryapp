@@ -10,3 +10,53 @@ In the main directory, run the following command
 then
 #### npm run dev
 
+
+
+# USER ACCESS
+
+## Signup Module :
+
+1. User can create an account by signing up with their name, email address and a password. (The role for every new registered user is 'USER')
+2. While signing up, user has to provide a strong password
+
+## Password Reset Module :
+
+1. If user forgets their password, an option to reset password has been given in the login screen.
+2. User has to click on 'forgot password' link and enter their registered email Id.
+3. A mail with a link to reset password will be sent to user's registered email Id.
+4. User can reset their password with that link.
+
+## Login Module :
+
+1. User can login to their registered account with their email and password.
+2. When user is logged in, they can access main menu page with options to add items to cart, cart page and orders page.
+
+## Main Module for User :
+
+1. In the menu page, user can specify quantities of item and can add the items to the cart.
+2. When an item is added to the cart, user can change the quantity or remove the item from cart.
+3. In the carts page, all the items in the cart along with its price are listed and the total amount is displayed at the bottom.
+4. When user place the order, the items are added to orders.
+5. User can view their previous orders in the orders page.
+
+
+# ADMIN ACCESS
+
+Admin can login with the credentials and can access the admin dashboard.
+
+## Admin Module :
+
+1. Admin can add and delete an item to the menu which will be listed to every user of the app.
+2. Admin can view all the orders placed and filter options with date filter, search filter, sorting were provided. 
+2. Admin can view frequently ordered items with filters for menu type and sorting.
+
+
+# CREDENTIALS
+
+#### Admin :
+email : admin@gmail.com
+password : admin@123
+
+#### User : (User can create their own account)
+email : user@gmail.com
+password : user@123
