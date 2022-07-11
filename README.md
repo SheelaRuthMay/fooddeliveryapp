@@ -67,11 +67,11 @@ Admin can login with the credentials and can access the admin dashboard.
 
 #### Admin :
 email : admin@gmail.com
-password : admin@123
+password : Admin@123
 
 #### User : (User can create their own account)
 email : user@gmail.com
-password : user@123
+password : User@123
 
 #### Database :
     HOST: "localhost",
