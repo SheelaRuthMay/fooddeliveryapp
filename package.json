@@ -1,0 +1,16 @@
+{
+    "name": "food_delivery_app",
+    "version": "1.0.0",
+    "scripts": {
+        "client": "cd client && npm start",
+        "server": "nodemon server/server.js",
+        "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\""
+    },
+    "dependencies": {
+        "nodemon": "^2.0.12",
+        "react-csv": "^2.0.3"
+    },
+    "devDependencies": {
+        "concurrently": "^4.1.2"
+    }
+}
