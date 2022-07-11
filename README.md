@@ -9,8 +9,20 @@ In the main directory, run the following command
 #### npm install (in the main directory, in the client directory and in the server directory)
 then
 #### npm run dev
+and run the below url in browser
+#### http://localhost:3000/
 
+### Technologies Used :
 
+Frontend - ReactJs
+Backend - NodeJs
+Database - PostgreSQL  (Database credentials given below)
+Database name : food
+Database file included in the main directory (food).
+Create new database 'food' in pgadmin and restore the above file.
+Database credentials can be modified in /server/app/config/db.config.js
+Frontend runs in http://localhost:3000/
+Backend runs in http://localhost:3001/api
 
 # USER ACCESS
 
@@ -47,7 +59,7 @@ Admin can login with the credentials and can access the admin dashboard.
 ## Admin Module :
 
 1. Admin can add and delete an item to the menu which will be listed to every user of the app.
-2. Admin can view all the orders placed and filter options with date filter, search filter, sorting were provided. 
+2. Admin can view all the orders placed and filter options with date filter, search filter, sorting are provided. 
 2. Admin can view frequently ordered items with filters for menu type and sorting.
 
 
@@ -60,3 +72,9 @@ password : admin@123
 #### User : (User can create their own account)
 email : user@gmail.com
 password : user@123
+
+#### Database :
+    HOST: "localhost",
+    USER: "postgres",
+    PASSWORD: "admin",
+    DB: "food",
