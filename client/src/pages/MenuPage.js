@@ -10,18 +10,13 @@ import {
   Button,
   Form,
   InputNumber,
-  Carousel,
   Image,
 } from "antd"; //antd components
 import { useCart } from "react-use-cart";
 // Internal imports
 import { basePath } from "../utils/request"; //base URL for Api's
 import TopHeader from "../component/Header";
-import slide1 from "../assets/images/bg/slide1.jpg";
 import slide2 from "../assets/images/bg/slide2.jpg";
-import slide3 from "../assets/images/bg/slide3.jpg";
-import slide4 from "../assets/images/bg/slide4.jpg";
-import slide5 from "../assets/images/bg/slide5.jpg";
 
 const contentStyle = {
   width: "100%",
@@ -40,12 +35,10 @@ function MenuPage() {
   let local = localStorage.getItem("data");
   console.log(useCart());
 
-  const { isEmpty,
+  const {
     items,
-    cartTotal,
     updateItemQuantity,
     removeItem,
-    emptyCart,
     addItem, inCart, getItem } =
     useCart();
 

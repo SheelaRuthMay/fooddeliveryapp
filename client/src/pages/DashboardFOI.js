@@ -2,7 +2,6 @@
 import React, { useEffect, useState } from "react";
 import { Row, Col, Layout, Modal, Spin, Tag, Table, Select } from "antd"; //antd components
 import "antd/dist/antd.min.css"; //antd component css
-import { useNavigate } from "react-router-dom"; //routing
 
 // Internal imports
 import { basePath } from "../utils/request"; //base URL for Api's

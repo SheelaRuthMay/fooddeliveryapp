@@ -22,8 +22,7 @@ function CartPage() {
     cartTotal,
     updateItemQuantity,
     removeItem,
-    emptyCart,
-    addItem, inCart, getItem
+    emptyCart
   } = useCart();
 
   const placeOrder = () => {
