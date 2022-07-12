@@ -14,15 +14,15 @@ and run the below url in browser
 
 ### Technologies Used :
 
-Frontend - ReactJs
-Backend - NodeJs
-Database - PostgreSQL  (Database credentials given below)
-Database name : food
-Database file included in the main directory (food).
-Create new database 'food' in pgadmin and restore the above file.
-Database credentials can be modified in /server/app/config/db.config.js
-Frontend runs in http://localhost:3000/
-Backend runs in http://localhost:3001/api
+1. Frontend - ReactJs
+2. Backend - NodeJs
+3. Database - PostgreSQL  (Database credentials given below)
+4. Database name : food
+5. Database file included in the main directory (food).
+6. Create new database 'food' in pgadmin and restore the above file.
+7. Database credentials can be modified in /server/app/config/db.config.js
+8. Frontend runs in http://localhost:3000/
+9. Backend runs in http://localhost:3001/api
 
 # USER ACCESS
 
