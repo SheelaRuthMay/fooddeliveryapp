@@ -74,6 +74,7 @@ email : admin@gmail.com
 password : Admin@123
 
 #### User : (User can create their own account)
+
 email : user@gmail.com
 password : User@123
 
