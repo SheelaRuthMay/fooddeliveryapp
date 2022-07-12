@@ -36,7 +36,6 @@ exports.list = async (req, res) => {
 
 // add new item to menu and insert in menu_item_availability
 exports.add = async (req, res) => {
-  console.log(req.body);
   let itemDetails = {
     menu_item_name: req.body.menu_item_name,
     menu_item_type: req.body.menu_item_type,
@@ -59,8 +58,6 @@ exports.add = async (req, res) => {
         menuItemAvailabilityTable
           .create(availabilityData)
           .then(() => {
-            console.log(i);
-            console.log(req.body.availability.length - 1);
             if (i === req.body.availability.length - 1) {
               res.send({
                 status: true,

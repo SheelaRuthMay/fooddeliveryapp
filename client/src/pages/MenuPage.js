@@ -33,7 +33,6 @@ function MenuPage() {
   const [itemsData, setItemsData] = useState([]); // table data (menu items list)
   let isAuthenticatedAdmin = localStorage.getItem("isAuthenticatedAdmin");
   let local = localStorage.getItem("data");
-  console.log(useCart());
 
   const {
     items,
@@ -60,7 +59,6 @@ function MenuPage() {
       .then((res) => res.json())
       .then((response) => {
         if (response.status === true) {
-          console.log(response.data);
           setSpinLoad(false);
           setItemsData(response.data);
         } else {
@@ -81,7 +79,7 @@ function MenuPage() {
   };
 
   const onFinish = (values) => {
-    console.log("values:", values);
+    console.log("values:");
   };
 
   return (

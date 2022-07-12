@@ -52,7 +52,7 @@ function DashboardOrdersPage() {
     dateFilters();
     }
     // eslint-disable-next-line
-  }, [endDate, searchVal]);
+  }, [startDate, endDate, searchVal]);
 
   //api integration for fetching order details
   const fetchOrderDetails = () => {
@@ -68,7 +68,6 @@ function DashboardOrdersPage() {
       .then((response) => {
         if (response.status === true) {
           setSpin(false);
-          console.log(response.data);
           let menuData;
           if(searchVal){
            menuData = response.data.filter(data => `${(data.user.name).toLowerCase()}`.includes(searchVal)).map((item, index) => {

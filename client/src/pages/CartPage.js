@@ -46,11 +46,12 @@ function CartPage() {
           Modal.success({
             content: response.message,
             onOk() {
-              emptyCart();
+              emptyCart()
+              history("/orders");
             },
           });
 
-          history("/menu");
+          
         } else {
           setButtonLoader(false);
           Modal.error({

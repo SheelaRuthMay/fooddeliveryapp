@@ -55,7 +55,6 @@ function DashboardItemsPage() {
       .then((response) => {
         if (response.status === true) {
           setSpin(false);
-          console.log(response.data);
           const menuData = response.data.map((item, index) => {
             let availabilityDetails;
             if (

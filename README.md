@@ -51,6 +51,10 @@ Backend runs in http://localhost:3001/api
 4. When user place the order, the items are added to orders.
 5. User can view their previous orders in the orders page.
 
+## Logout Module :
+
+1. User or Admin can logout from their account and still can view the menu items from the index page.
+
 
 # ADMIN ACCESS
 
@@ -71,6 +75,9 @@ password : Admin@123
 
 #### User : (User can create their own account)
 email : user@gmail.com
+password : User@123
+
+email : user1@gmail.com
 password : User@123
 
 #### Database :

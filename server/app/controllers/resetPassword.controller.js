@@ -27,7 +27,6 @@ exports.passwordResetLink = async (req, res) => {
     const email1 = req.body.email;
     const encryptEmail = encrypt(email1); // encrypt email
     const email = JSON.stringify(encryptEmail); // convert to string
-    console.log(JSON.parse(email))
     const resetLink = commonConfig.frontEndUrl + "/reset-password/" + email;
 
     //Query for Checks email exist and select the record with that email
@@ -85,7 +84,6 @@ exports.updateUserPassword = async (req, res) => {
     const email = req.body.email1;
 
     let decryptedEmail = decrypt(email); //decrypt email from front end
-    console.log(decryptedEmail)
 
     const newPassword = encrypt(req.body.password); // encrypt password before saving in db
     const encryptedPassword = JSON.stringify(newPassword); // convert to string

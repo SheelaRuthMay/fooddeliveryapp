@@ -38,7 +38,7 @@ function App() {
         <Route exact path="/cart" element={<CartProvider><Cart /></CartProvider>} />
        
       {/* <Route exact path="/cart" element={<Cart />} /> */}
-        <Route exact path="/orders" element={<Orders />} />
+        <Route exact path="/orders" element={<CartProvider><Orders /></CartProvider>} />
         </Route>
         <Route element={<AdminRoutes />}>
           {/* inner pages */}
